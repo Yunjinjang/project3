@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*common*/
+body {
+  background-color: gray;
+  line-height: 1;
+}
+
+.navigate {   
+  background-color: pink; 
+  height:60px;
+  position: fixed; 
+  margin: 0% 0% 0% 0%;
+  top: 0; 
+  width:100%; 
+} 
+
+.navigate a { 
+  display: block; 
+  color: black; 
+  text-align: center; 
+  align-content:center;
+  padding: 10px 16px;
+  text-decoration:none; 
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+}
+ 
+.navigate a:hover {
+    background-color: purple;
+}
+
+.navigate ul
+{
+  margin:0;
+  text-align:center;
+}
+
+.navigate li {
+  display: inline-block;
+  list-style: none;
+}
+
+ .title
+{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-family: 'Boogaloo', cursive;
+  font-size: 80px; 
+}
+
+ .title2
+{
+  text-align: center;
+  margin-top:80px;
+  margin-bottom: 50px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px; 
+}
+
+ .center
+{
+  float: none;
+  text-align: center;
+}
+
+/*index*/
+
+ .idx_phrase 
+{
+  float: none;
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px ridge pink;
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+ .idx_phrase2 
+{
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border: 10px ridge purple;
+  font-family: 'Boogaloo', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.idx_phrase3 
+{
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border: 10px ridge pink;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*jazz*/
+
+ .jazz_phrase 
+{
+  float: none;
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px solid purple;
+  font-family: 'Concert One', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+
+.jazz_phrase2 
+{
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dashed pink;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+/*resume*/
+
+.resume_title{
+  margin-top:80px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.retitle{
+  line-height: 150%;
+  font-size: 40px;
+}
+
+.address{
+  text-align:right;
+  font:20px arial;
+  margin-right:20px;
+  float:right; 
+}
+
+.education{
+  line-height: 150%;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.inside{
+  line-height: 150%;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.inside_bottom{
+  line-height: 150%;
+  margin-left: 40px;
+  margin-bottom : 50px;
+  font-size: 20px;
+}
+
+.experience{
+  line-height: 150%;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.ski{
+  line-height: 150%;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.AS{
+  line-height: 150%;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
